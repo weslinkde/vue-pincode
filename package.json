@@ -1,10 +1,11 @@
 {
-  "name": "vue-pincode",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@weslink/vue-pincode",
+  "version": "0.2.0",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --dest docs && npm run build-bundle",
+    "build-bundle": "vue-cli-service build --target lib ./src/index.js",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
@@ -29,20 +30,19 @@
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.{js,jsx,vue}": [
-      "vue-cli-service lint",
-      "git add"
-    ]
-  },
-  "description": "## Project setup ``` npm install ```",
+  "description": "Neumorphism styled pincode input field for Vue.js",
   "main": "src/index.js",
   "directories": {
     "test": "tests"
   },
   "author": "Weslink GmbH",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weslinkde/vue-pincode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weslinkde/vue-pincode/issues"
+  },
+  "homepage": "https://weslinkde.github.io/vue-pincode/"
 }
