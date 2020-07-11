@@ -37,5 +37,12 @@
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "author": "Weslink GmbH",
+  "license": "MIT"
 }
