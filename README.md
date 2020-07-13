@@ -5,6 +5,7 @@
 ### VuePincode
 
 ## Features
+### :rocket: [See live demo](https://weslinkde.github.io/vue-pincode/) (Pin: 1234 is the right one)
 - Simple pincode input field
 - Neumorphism styling
 - Smooth animations
@@ -66,4 +67,6 @@ export default {
 - `npm run build` compiles and minifies production files and demo
 
 ## Licensing
-Copyright (c) 2020 Dominik Lenz([Weslink GmbH](https://weslink.de)), [MIT License](LICENSE)
+Copyright :copyright: 2020 [Weslink GmbH](https://weslink.de), [MIT License](LICENSE)
+
+Author: Dominik Lenz
