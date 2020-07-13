@@ -44,5 +44,16 @@
   "bugs": {
     "url": "https://github.com/weslinkde/vue-pincode/issues"
   },
-  "homepage": "https://weslinkde.github.io/vue-pincode/"
+  "homepage": "https://weslinkde.github.io/vue-pincode/",
+  "keywords": [
+    "pincode",
+    "pin",
+    "pin code",
+    "code",
+    "vue",
+    "vue.js",
+    "vue-pincode",
+    "weslink",
+    "neumorphism"
+  ]
 }
